@@ -817,7 +817,7 @@ footer a {
 
 }
 
-.modal-input:checked+.ja-hz {
+.modal-checkbox:checked~.modal-span-policy {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
@@ -927,7 +927,9 @@ footer a {
 }
 
 
-
+/* .ja-hz {
+    fill: #404bbf;
+} */
 
 
 
