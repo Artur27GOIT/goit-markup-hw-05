@@ -617,6 +617,7 @@ footer a {
 
 .footer-form {
     display: flex;
+    gap: 24px;
 }
 
 .footer-label {}
@@ -628,25 +629,27 @@ footer a {
     width: 264px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #2e2f42;
-    padding: 8px 0 8px 16px;
-    margin-right: 24px;
+    background-color: transparent;
+
+    font-size: 12px;
+    padding-left: 16px;
+    letter-spacing: 0.04em;
+    line-height: 2;
+
+    /* margin-right: 24px; */
 }
 
-.footer-input-email:hover {
+/* .footer-input-email:hover {
     border-color: #404bbf;
 }
 
 .footer-input-email:focus {
     border: 1px solid #4d5ae5;
     outline: none;
-}
+} */
 
 .footer-input-email::placeholder {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
+
     color: #fff;
 }
 
@@ -655,26 +658,32 @@ footer a {
 .footer-subscribe-button {
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
-    font-weight: 500;
     background: #4d5ae5;
+    border: none;
 
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 16px;
 
 
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: start;
     color: #fff;
+
     position: relative;
+
+    cursor: pointer;
+
 }
 
 .footer-icon-telegram {
-
+    margin-left: 16px;
     fill: rgb(255, 255, 255);
     top: 0;
 }
