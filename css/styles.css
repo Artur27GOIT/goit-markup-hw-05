@@ -817,11 +817,10 @@ footer a {
 
 }
 
-.modal-checkbox:checked~.modal-span-policy {
+.modal-checkbox:checked+.modal-privacy-text .modal-span-policy {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
-
 }
 
 .modal-container-icon {
@@ -908,6 +907,8 @@ footer a {
 
 .modal-button {
     display: block;
+    margin: 0 auto;
+
 
     font-family: "Roboto", sans-serif;
     font-weight: 500;
